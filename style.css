@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: lighter;
+  font-size: 20px;
+}
+
+.banner {
+  width: 100%;
+  height: 100vh;
+
+  background-size: cover;
+  background-position: center;
+  transition: 10s;
+
+  animation-name: animate;
+  animation-direction: alternate-reverse;
+  animation-duration: 50s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  animation-play-state: running;
+  animation-timing-function: ease-in-out, step-end;
+}
+.banner {
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+
+@keyframes animate {
+  0% {
+    background-image: url(img/coffee9.jpg);
+  }
+  25% {
+    background-image: url(img/coffee8.jpg);
+  }
+  50% {
+    background-image: url(img/coffee7.jpg);
+  }
+  75% {
+    background-image: url(img/coffee5.jpg);
+  }
+  100% {
+    background-image: url(img/coffee6.jpg);
+  }
+}
+
+.navbar ul li {
+  z-index: 1;
+  list-style: none;
+  display: inline-block;
+  margin: 25px 13px;
+  position: relative;
+}
+
+.navbar ul li a {
+  z-index: 1;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  transition: 0.2s;
+}
+
+.navbar ul li a:hover {
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+}
+
+.navbar_menu ul li a {
+  z-index: 1;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  text-transform: uppercase;
+  transition: 0.2s;
+}
+
+.navbar_menu ul li {
+  z-index: 1;
+  list-style: none;
+  display: inline-block;
+  margin-left: 13px;
+  margin-top: 25px;
+  padding-bottom: 7px;
+  position: relative;
+}
+
+.navbar_menu ul li a:hover {
+  color: rgb(41, 40, 40);
+  font-weight: bold;
+}
+
+.navbarx ul li a {
+  z-index: 1;
+  text-decoration: none;
+  color: rgb(34, 34, 34);
+  text-transform: uppercase;
+  transition: 0.2s;
+}
+
+.navbarx ul li {
+  z-index: 1;
+  list-style: none;
+  display: inline-block;
+  margin: 25px 13px;
+  position: relative;
+}
+
+.navbarx ul li a:hover {
+  color: rgb(27, 27, 27);
+  font-weight: bold;
+}
+
+.content {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+  color: white;
+}
+
+.contentmaps {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+  color: white;
+}
+
+.foot {
+  width: 100%;
+  position: absolute;
+  text-align: left;
+  padding-left: 50px;
+  bottom: 0%;
+  font-weight: lighter;
+  color: white;
+}
+.card-text {
+  font-weight: bold;
+}
+
+section {
+  padding-top: 5rem;
+}
+
+.isicontent {
+  padding-top: 5rem;
+  padding-left: 9%;
+}
